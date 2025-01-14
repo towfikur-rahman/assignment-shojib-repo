@@ -392,3 +392,196 @@
 }
 
 
+ 
+#donate{
+    width: 1280px;
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 320px 80px 320px;
+}
+.donate-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donate-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donate-title{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.donate-description{
+    width: 1104px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.donate-amount-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.amount-1{
+    width: 240px;
+    height: 128px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+.amount-100{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 40px 0 40px 0;
+}
+.amount-2{
+    width: 240px;
+    height: 128px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    text-align: center;
+    background: rgb(198, 228, 214);
+}
+.amount-200{
+    font-size: 40px;
+    font-weight: 700px;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 40px 0 40px 0;
+}
+.amount-3{
+    width: 240px;
+    height: 128px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.amount-500{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 40px 0 40px 0;
+}
+.amount-4{
+    width: 240px;
+    height: 128px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.amount-1000{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 40px 0 40px 0;
+}
+.amount-1:hover{
+    background-color: rgb(198, 228, 214);
+}
+.amount-3:hover{
+    background-color: rgb(198, 228, 214);
+}
+.amount-4:hover{
+    background-color: rgb(198, 228, 214);
+}
+.taka{
+    width: 900px;
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 4px 30px 0 rgba(0, 0, 0, 0.10);
+    margin-bottom: 32px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 5px;
+}
+.taka::placeholder{
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+}
+.done-now{
+    padding: 17px 34px 17px 34px;
+    border: none;
+    border-radius: 8px;
+    background-color: #006A50;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+#news-letter{
+    width: 1200px;
+    height: 395px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 360px 80px 360px ;
+}
+.newsletter-container{
+    text-align: center;
+}
+.title{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+#news-letter .search{
+    display: flex;
+    text-align: center;
+    gap: 0;
+    margin-bottom: 25px;
+}
+ input{
+    width: 500px;
+    padding: 17px 40px 17px 40px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+ }
+ input::placeholder{
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 15px;
+    font-weight: 400;
+ }
+ .subscribe{
+    padding: 15px 34px 15px 34px;
+    border: none;
+    border-radius: 0  8px 8px 0;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+ }
+ .subtitle{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+ }
+
