@@ -80,3 +80,183 @@
 .banner-img{
     margin: 80px 59.99px 80px auto;
 }
+
+
+ 
+
+.pillars-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .pillars-section h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  .pillars-bd{
+    text-align: left;
+    margin-left: 350px;
+  }
+
+  
+  .pillars {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .pillar {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .pillar:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon {
+    width: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .pillar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .pillar p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+  }
+#future{
+    width: 1280px;
+    height: 765px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 40px 320px 40px 320px;
+}
+.future-title{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.future-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.card-continer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.card-1{
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+.card-2{
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: #C6E4D6;
+    padding: 32px;
+}
+.card-3{
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: #F7EBCF;
+    padding: 32px;
+}
+.card-icon{
+    margin-bottom: 24px;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.card-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+.card-description2{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.card-btn{
+    padding: 11px 20px 11px 20px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-color1{
+    background-color: #5490F5;
+}
+.btn-color2{
+    background-color: #09A15C;
+}
+.btn-color3{
+    background-color: #FFC239;
+}
+/* yunus section */
+.yunus-container{
+    width: 1280px;
+    height: 240px;
+    padding: 48px 24px 48px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 24px ;
+    background-position-y: 24px;   
+}
+.yunus-description{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.yunus-name{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.yunus-subtitle{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+
